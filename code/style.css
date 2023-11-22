@@ -359,7 +359,62 @@ footer address{
 .Pictures_Section img:not(:hover){
     transition: 0.2s;
 }
+.description button{
+    padding: 20px;
+    float: right;
+    margin:10px;
+    background-color: none;
+    color:black;
+    font-size: 15px;
+}
+.description button:hover{
+    border-radius: 20px;
+    background-color: #072539;
+    color:whitesmoke;
+    transition: 0.4s;
+}
+.description button:not(:hover){
+    border-radius: 0px;
+    background-color: none;
+    color:black;
+    transition: 0.4s;
+}
 h1 a{
     color:black;
     text-decoration: none;
+}
+.B_letter{
+    background-color:rgb(7, 37, 57) ;
+}
+.letter{
+    border-radius: 20px;
+    width:94%;
+    margin:1%;
+    padding: 2%;
+    background-color: rgb(15, 58, 87);
+    color:white
+}
+.letter h1{
+    font-size: 40px;
+    border-bottom: 2px white solid;
+    margin:1%;
+}
+.letter h2{
+    font-size: 25px;
+    border-left: 3px rgb(220, 226, 224) solid ;
+    padding: 1%;
+    margin: 4% 1%;
+}
+.letter h3{
+    font-size: 23px;
+    text-align: center;
+}
+.letter p{
+    background-color: #072539;
+    border-radius: 5px;
+    padding: 2%;
+    font-size: 22px;
+    margin: 1%;
+    letter-spacing: 2px;
+    line-height: 30px;
 }
