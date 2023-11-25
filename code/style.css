@@ -366,9 +366,9 @@ footer address{
     background-color: none;
     color:black;
     font-size: 15px;
+    cursor: pointer;
 }
 .description button:hover{
-    border-radius: 20px;
     background-color: #072539;
     color:whitesmoke;
     transition: 0.4s;
@@ -384,20 +384,28 @@ h1 a{
     text-decoration: none;
 }
 .B_letter{
-    background-color:rgb(7, 37, 57) ;
+    background-color:rgb(0, 0, 0) ;
 }
 .letter{
     border-radius: 20px;
     width:94%;
     margin:1%;
     padding: 2%;
-    background-color: rgb(15, 58, 87);
-    color:white
+    background-color:rgb(32 32 32);
+    color:#ffffff;
 }
 .letter h1{
     font-size: 40px;
     border-bottom: 2px white solid;
     margin:1%;
+}
+.letter h1:hover{
+    letter-spacing: 15px;
+    transition: 0.4s;
+}
+.letter h1:not(:hover){
+    letter-spacing: 1px;
+    transition: 0.4s;
 }
 .letter h2{
     font-size: 25px;
@@ -410,11 +418,21 @@ h1 a{
     text-align: center;
 }
 .letter p{
-    background-color: #072539;
+    background-color: #121212;
     border-radius: 5px;
     padding: 2%;
     font-size: 22px;
     margin: 1%;
     letter-spacing: 2px;
     line-height: 30px;
+}
+.letter img{
+    margin-top:30px;
+    margin:5%;
+    width:90%;
+    border-radius: 10px;
+}
+#hidden{
+    background-color:rgb(32 32 32);
+    color:rgb(32 32 32);
 }
