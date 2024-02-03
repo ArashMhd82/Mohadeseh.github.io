@@ -226,6 +226,7 @@ header h1,p{
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.373), 
     0 2px 10px 0 rgba(0, 0, 0, 0.466);
     transition: 0.5s;
+    cursor: pointer;
 }
 .layor_by_layor_list:not(:hover){
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.318), 
